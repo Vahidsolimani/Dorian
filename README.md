@@ -14,7 +14,7 @@
 ![Image](https://github.com/user-attachments/assets/46982262-8da0-4322-9c29-f92995fdbe33)
 ![Image](https://github.com/user-attachments/assets/28ffdc03-2ea8-428d-93e6-4305661dc387)
 **************************
- JavaScript is used to create dynamic interactions on the website.
+ JavaScript methods and events used in this project
 - **Accordion Menu**: An accordion-style menu is implemented for showing/hiding menu items.
 - **RegEx**: Regular expressions are used for form validation and input processing, such as validating emails or phone numbers.
 - **Loading**: A loading screen is used to display while the page or content is being loaded, improving user experience.
