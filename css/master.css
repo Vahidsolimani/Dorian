@@ -1,0 +1,106 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* //////////////////////slidr///// */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* //////////////////////slidr///// */
+.accordion-container {
+  width: 100%;
+}
+
+.accordion-btn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accordion-btn.active {
+  background-color: #333;
+  color: white;
+}
+
+.accordion-content {
+  transition: all 0.3s ease;
+}
+
+.accordion-item {
+  margin-top: 0.5rem; 
+  margin-bottom: 0.5rem; 
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-body {
+  transition: all 0.3s ease;
+}
+/* /////// */
+.dis {
+  display: none;
+}
+.block {
+  display: block;
+}
+/* ////////////اکاردون دوم//////////////// */
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/*  عکس فوتر انیمیشن بالا و پایین */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+.rotate {
+  animation: rotate 6s linear infinite;
+}
+
+.bounce {
+  animation: bounce 1.5s ease infinite;
+}
+/* //////////////////// */
+
+/* /////////////////// */
+#loading-spinner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+

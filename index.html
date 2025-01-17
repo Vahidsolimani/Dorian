@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/output.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>jinzhenlian</title>
+</head>
+
+<body class="relative overflow-x-hidden ">
+  <nav class="w-full bg-yelooooo">
+    <div class="container  mx-auto  ">
+
+      <div class="bg-yellow-500 text-black">
+
+        <div class="flex justify-between items-center p-4 relative">
+          <div class="text-2xl font-bold">
+            <figure class="md:w-[200px] w-28"><img src="img/logo.png" alt=""></figure>
+          </div>
+
+          <div class="hidden lg:flex space-x-8">
+            <ul class="flex *:text-lg *:font-bold space-x-8">
+              <li><a href="#" class=" hover:bg-blue-700 px-4 py-2 rounded-lg">Our Story</a></li>
+              <li><a href="#" class=" hover:bg-blue-700 px-4 py-2 rounded-lg">Products</a></li>
+              <li><a href="#" class=" hover:bg-blue-700 px-4 py-2 rounded-lg">Our Promise</a></li>
+              <li><a href="#" class=" hover:bg-blue-700 px-4 py-2 rounded-lg">Find Us</a></li>
+              <li><a href="#" class=" hover:bg-blue-700 px-4 py-2 rounded-lg">Partnerships</a></li>
+            </ul>
+          </div>
+          <div class="hidden md:block">
+            <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Contact</button>
+          </div>
+            <!-- ////////menu for mobile////// -->
+          <div class="md:hidden">
+            <button id="hamburger" class="flex flex-col relative z-50 gap-1" onclick="toggleMenu()">
+              <div class="w-6 h-0.5 bg-black"></div>
+              <div class="w-6 h-0.5 bg-black"></div>
+              <div class="w-6 h-0.5 bg-black"></div>
+            </button>
+          </div>
+        </div>
+        <div id="menu"
+          class="bg-gray-900 bg-opacity-95 text-white flex flex-col justify-center items-center gap-6 fixed inset-0 z-40 transform transition-all duration-500 scale-0">
+          <ul class="space-y-6 text-sm">
+            <li><a href="#" class="block px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700">Our Story</a>
+            </li>
+            <li><a href="#" class="block px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700">Products</a>
+            </li>
+            <li><a href="#" class="block px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700">Our Promise</a>
+            </li>
+            <li><a href="#" class="block px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700">Find Us</a></li>
+            <li><a href="#" class="block px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700">Partnerships</a>
+            </li>
+          </ul>
+          <button class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600">Contact</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <header class="w-full bg-yelooooo">
+    <div class=" mx-auto ">
+      <figure class="md:-mt-28"><img src="img/header.webp" alt=""></figure>
+      <section class="w-full  absolute z-10">
+        <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#fedf23" fill-opacity="1"
+            d="M0,64L80,80C160,96,320,128,480,138.7C640,149,800,139,960,117.3C1120,96,1280,64,1360,48L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+          </path>
+        </svg>
+      </section>
+    </div>
+  </header>
+  <section class="w-full ">
+    <div class="relative w-full">
+      <video class="bg-black w-full opacity-90 mx-auto" id="vid" src="video/vid.mp4"></video>
+      <div class="hidden md:block absolute p-10 top-24">
+        <h2 class="capitalize  leading-loose mt-20 py-5 text-white md:text-6xl font-sans font-bold">Joyful Tastes
+          <br>From The Land
+          <br>Of Smiles</h2>
+        <p class=" mt-5 text-white capitalize text-xl leading-relaxed">
+          Delight in the creamy sweetness and wonderful aroma of the best Thai durian. <br>Every Jin Zhen Lian treat is
+          made
+          <br> with fine, fresh fruit from the famous
+          <br> seaside orchards of Eastern Thailand.
+          <br>
+          <br>You’ll taste the wow in every bite. So share
+          <br>the smiles with the durian lovers in your life.
+          It’s pure durian joy!
+        </p>
+        <div class=" w-full -translate-y-44">
+          <img src="img/download (1).svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="w-full  bg-yelooooo">
+    <div class="container overflow-hidden py-10 mx-auto p-10">
+      <div class="">
+        <h2 class="w-full text-center md:text-4xl">
+          OUR PRODUCTS
+        </h2>
+      </div>
+      <div class="lg:flex   justify-between gap-x-10 *:w-full  *:text-center md:*:w-1/2 items-center  mt-5">
+        <div>
+          <figure><img src="img/Bing Qi Guo.png" alt=""></figure>
+        </div>
+        <div>
+          <div class="my-5">
+            <h3 class="capitalize md:text-4xl font-bold ">DURIAN <br>
+              BING QI GUO</h3>
+          </div>
+          <div class="w-full *:scale-50 flex justify-center items-center gap-x-3">
+            <a href=""><img src="img/1.png" alt=""></a>
+            <a href=""><img src="img/2.png" alt=""></a>
+            <a href=""><img src="img/3.png" alt=""></a>
+            <a href=""><img src="img/4.png" alt=""></a>
+          </div>
+          <div class="my-10">
+            <h3>
+              Savor the rich sweetness in every refreshing bite of the Bing Qi Guo, made with real Eastern Monthong
+              pulp.
+            </h3>
+          </div>
+          <div>
+            <div class="max-w-lg mx-auto bg-white rounded-lg shadow-md">
+              <div class="border-b">
+                <button class="flex justify-between items-center w-full p-4 text-left" onclick="toggleAccordion(this)">
+                  <span class="text-lg capitalize font-medium">Ingredients</span>
+                  <span class="text-2xl font-bold transition-transform duration-300">+</span>
+                </button>
+                <div class="hidden px-4 pb-4 text-gray-700">
+                  <p>
+                    100% Eastern Monthong Durian Pulp
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- //////////////////2 -->
+            <div class="border-b my-5 max-w-lg mx-auto bg-white rounded-lg shadow-md">
+              <button class="flex justify-between items-center w-full p-4 text-left" onclick="toggleAccordion(this)">
+                <span class="text-lg capitalize font-medium">Nutrition facts</span>
+                <span class="text-2xl font-bold transition-transform duration-300">+</span>
+              </button>
+              <div class="hidden px-4 pb-4 text-gray-700">
+                <p>
+                  sweetness in every refreshing bite of the Bing Qi Guo, made with real Eastern
+                </p>
+              </div>
+            </div>
+            <!-- //////////////////////3 -->
+            <div class="max-w-lg mx-auto bg-white rounded-lg shadow-md">
+              <button class="flex justify-between items-center w-full p-4 text-left" onclick="toggleAccordion(this)">
+                <span class="text-lg capitalize font-medium">How to enjoy</span>
+                <span class="text-2xl font-bold transition-transform duration-300">+</span>
+              </button>
+              <div class="hidden px-4 pb-4 text-gray-700">
+                Thaw for 1-2 minutes before enjoying
+              </div>
+            </div>
+            <!-- /////////////////////////4 -->
+            <div class="max-w-lg mx-auto my-5 bg-white rounded-lg shadow-md">
+              <button class="flex justify-between items-center w-full p-4 text-left" onclick="toggleAccordion(this)">
+                <span class="text-lg capitalize font-medium">How to Store</span>
+                <span class="text-2xl font-bold transition-transform duration-300">+</span>
+              </button>
+              <div class="hidden px-4 pb-4 text-gray-700">
+                Keep frozen under -18℃
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="w-full">
+    <div class="w-full h-[200px]">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#fedf23" fill-opacity="1"
+          d="M0,64L80,80C160,96,320,128,480,138.7C640,149,800,139,960,117.3C1120,96,1280,64,1360,48L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+        </path>
+      </svg>
+    </div>
+  </section>
+  <section class="w-full">
+    <div class="container overflow-hidden mx-auto">
+      <div class="md:flex justify-between gap-x-10 content-center items-center *:md:w-1/2">
+        <div class=" p-5">
+          <div class="my-5">
+            <h3 class="capitalize text-center md:text-4xl font-bold ">DURIAN <br>
+              XUE BAO</h3>
+          </div>
+          <div class="flex justify-center my-5 *:scale-50 items-center gap-x-3">
+            <a href=""><img src="img/noaddit_2.png" alt=""></a>
+            <a href=""><img src="img/nodairy_2.png" alt=""></a>
+            <a href=""><img src="img/nosugar_2.png" alt=""></a>
+            <a href=""><img src="img/vegan_2.png" alt=""></a>
+          </div>
+          <div class="my-5 px-6">
+            <h3 class="px-4">
+              Delight in the sweet smoothness of the Xue Bao, <br> made from 100% Eastern Monthong puree.
+            </h3>
+            <div class="mt-4">
+              <div class="max-w-lg mx-auto bg-yelooooo rounded-lg shadow-md">
+                <div class="border-b">
+                  <button class="flex justify-between items-center w-full p-4 text-left"
+                    onclick="toggleAccordion(this)">
+                    <span class="text-lg capitalize font-medium">Ingredients</span>
+                    <span class="text-2xl font-bold transition-transform duration-300">+</span>
+                  </button>
+                  <div class="hidden px-4 pb-4 text-gray-700">
+                    <p>
+                      100% Eastern Monthong Durian Pulp
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- //////////////////2 -->
+              <div class="border-b my-5 max-w-lg mx-auto bg-yelooooo rounded-lg shadow-md">
+                <button class="flex justify-between items-center w-full p-4 text-left" onclick="toggleAccordion(this)">
+                  <span class="text-lg capitalize font-medium">Nutrition facts</span>
+                  <span class="text-2xl font-bold transition-transform duration-300">+</span>
+                </button>
+                <div class="hidden px-4 pb-4 text-gray-700">
+                  <p>
+                    sweetness in every refreshing bite of the Bing Qi Guo, made with real Eastern
+                  </p>
+                </div>
+              </div>
+              <!-- //////////////////////3 -->
+              <div class="max-w-lg mx-auto bg-yelooooo rounded-lg shadow-md">
+                <button class="flex justify-between items-center w-full p-4 text-left" onclick="toggleAccordion(this)">
+                  <span class="text-lg capitalize font-medium">How to enjoy</span>
+                  <span class="text-2xl font-bold transition-transform duration-300">+</span>
+                </button>
+                <div class="hidden px-4 pb-4 text-gray-700">
+                  Thaw for 1-2 minutes before enjoying
+                </div>
+              </div>
+              <!-- /////////////////////////4 -->
+              <div class="max-w-lg mx-auto my-5 bg-yelooooo rounded-lg shadow-md">
+                <button class="flex justify-between items-center w-full p-4 text-left" onclick="toggleAccordion(this)">
+                  <span class="text-lg capitalize font-medium">How to Store</span>
+                  <span class="text-2xl font-bold transition-transform duration-300">+</span>
+                </button>
+                <div class="hidden px-4 pb-4 text-gray-700">
+                  Keep frozen under -18℃
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <figure><a href=""><img src="img/(Desktop) Coming soon.png" alt=""></a></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="w-full bg-yelooooo sec">
+    <div class="container overflow-hidden mx-auto mt-5">
+      <div class="lg:flex p-4 gap-x-10 *:md:w-1/2 justify-between">
+        <div>
+          <div class="mt-5">
+            <h3 class="text-5xl font-bold">our <br>
+              PROMISE</h3>
+            <div
+              class=" mt-5 *:text-white box  *:border-black  *:border-2  *:px-4 *:py-2 *:cursor-pointer  *:rounded-[50rem]  flex gap-x-4">
+              <span class="active" id="span1">1</span>
+              <span id="span2">2</span>
+              <span id="span3">3</span>
+            </div>
+            <div class="mt-36 content">
+              <h4 class="text-3xl font-bold">Quality <br>
+                Assurance</h4>
+              <p class="my-10">
+                We implement strict quality control measures throughout our production process. From sourcing and
+                handling to processing and packaging, we maintain high standards to consistently deliver remarkable
+                products that people love.
+              </p>
+            </div>
+            <div class="mt-36 content dis">
+              <h4 class="text-3xl font-bold">The Bes <br>
+                From Thailand</h4>
+              <p class="my-10">
+                Our durian products embody the essence of Thailand.
+                We meticulously select the finest Monthong durians from Eastern Thailand, renowned for their exceptional
+                taste and quality, thanks to the unique influence of the nearby ocean.
+              </p>
+            </div>
+            <div class="mt-36 content dis">
+              <h4 class="text-3xl font-bold"> The Durian <br>
+                Lovers' Choice</h4>
+              <p class="my-10">
+                Our goal is to be the trusted choice for durian lovers. <br>
+                We strive to provide delicious experiences that cater <br>
+                to their cravings for Eastern Monthong durian.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class=" relative rounded-md overflow-hidden">
+          <figure class=" fig *:rounded-md rounded-md *:absolute *:top-0 left-0 overflow-hidden">
+            <img class=" hidden " src="img/promise_1.png" alt="">
+            <img class=" hidden" src="img/promise_2.jpg" alt="">
+            <img class=" hidden" src="img/promise_4_1.png" alt="">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="w-full bg-yelooooo sec">
+    <div class="container overflow-hidden mx-auto ">
+      <div class="lg:flex p-4  *:md:w-1/2 justify-between gap-x-5">
+        <div class=" relative rounded-md overflow-hidden">
+          <figure class=" fig rounded-md *:absolute *:top-0 left-0 overflow-hidden">
+            <img class=" rounded-md hidden " src="img/easter_1.jpg" alt="">
+            <img class=" rounded-md hidden" src="img/easter_2.png" alt="">
+            <img class=" rounded-md hidden" src="img/easter_mb_3.png" alt="">
+          </figure>
+        </div>
+        <div>
+          <div class="mt-5">
+            <h3 class="text-5xl font-bold">why eastern <br>
+              monthong?</h3>
+            <div
+              class=" mt-5 *:text-white box  *:border-black  *:border-2  *:px-4 *:py-2 *:cursor-pointer  *:rounded-[50rem]  flex gap-x-4">
+              <span class="active" id="span1">1</span>
+              <span id="span2">2</span>
+              <span id="span3">3</span>
+            </div>
+            <div class="mt-36 content">
+              <h4 class="text-3xl font-bold"> Ideal <br>
+                Growing Conditions</h4>
+              <p class="my-10">
+                The Eastern Monthong grows in the dry climate and mineral-rich soil of Rayong, Chanthaburi, and Trat
+                provinces, giving the variety its distinct flavor profile.
+              </p>
+            </div>
+            <div class="mt-36 content dis">
+              <h4 class="text-3xl font-bold"> unique <br>
+                Taste and Texture</h4>
+              <p class="my-10">
+                The Eastern Monthong durian is renowned for its rich, creamy texture and sweet, aromatic flavor, making
+                it highly sought after among durian enthusiasts.
+              </p>
+            </div>
+            <div class="mt-36 content dis">
+              <h4 class="text-3xl font-bold">
+                limited <br>
+                Harvest Window
+              </h4>
+              <p class="my-10">
+                Harvested only from April to June, the Eastern Monthong is highly prized. We make the distinctive flavor
+                of this seasonal indulgence available to you year-round.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="w-full bg-yelooooo">
+    <div class=" w-full mt-10 h-[80vh]">
+      <div class="swiper mySwiper w-full h-full">
+        <div class="swiper-wrapper w-full h-full">
+          <div
+            class="swiper-slide mx-auto bg-bg2 bg-cover flex justify-center p-20 items-center bg-center w-full h-full">
+            <div class="p-5 mx-auto rounded-sm md:mt-40 inset-0 backdrop-blur-sm bg-black/30 h-[300px] ">
+              <h4 class="text-yelooooo mt-10 uppercase text-lg md:text-2xl w-full font-bold">find us in</h4>
+              <p class="text-white mt-2">Wondering where to find our delicious durian treats in Thailand?
+                <br> Look for our bright yellow freezers and enjoy a burst of durian joy!
+              </p>
+              <span id="demo" class="my-5 text-2xl md:text-6xl text-white capitalize font-bold block"></span>
+            </div>
+          </div>
+          <div
+            class="swiper-slide mx-auto bg-bg3 bg-cover flex justify-center p-20 items-center bg-center w-full h-full">
+            <div class="p-5 mx-auto rounded-sm md:mt-40 inset-0 backdrop-blur-sm bg-black/30 h-[300px] ">
+              <h4 class="text-yelooooo mt-10 uppercase text-2xl w-full font-bold">find us in</h4>
+              <p class="text-white mt-2">Wondering where to find our delicious durian treats in Thailand?
+                <br> Look for our bright yellow freezers and enjoy a burst of durian joy!
+              </p>
+              <span class="my-5 text-2xl md:text-6xl text-white capitalize font-bold block">pattaya</span>
+            </div>
+          </div>
+          <div
+            class="swiper-slide mx-auto bg-bg4 bg-cover flex justify-center p-20 items-center bg-center w-full h-full">
+            <div class="p-5 mx-auto rounded-sm md:mt-40 inset-0 backdrop-blur-sm bg-black/30 h-[300px] ">
+              <h4 class="text-yelooooo mt-10 uppercase text-2xl w-full font-bold">find us in</h4>
+              <p class="text-white mt-2">Wondering where to find our delicious durian treats in Thailand?
+                <br> Look for our bright yellow freezers and enjoy a burst of durian joy!
+              </p>
+              <span class="my-5 text-2xl md:text-6xl text-white capitalize font-bold block">phuket</span>
+            </div>
+          </div>
+          <div
+            class="swiper-slide mx-auto bg-bg5 bg-cover flex justify-center p-20 items-center bg-center w-full h-full">
+            <div class="p-5 mx-auto rounded-sm md:mt-40 inset-0 backdrop-blur-sm bg-black/30 h-[300px] ">
+              <h4 class="text-yelooooo mt-10 uppercase text-2xl w-full font-bold">find us in</h4>
+              <p class="text-white mt-2">Wondering where to find our delicious durian treats in Thailand?
+                <br> Look for our bright yellow freezers and enjoy a burst of durian joy!
+              </p>
+              <span class="my-5 text-2xl md:text-6xl text-white capitalize font-bold block">chaingam</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section class="w-full">
+    <div class="container overflow-hidden mx-auto">
+      <div class=" *:md:w-1/2 mt-10 md:flex justify-between gap-x-10 items-center">
+        <div>
+          <figure>
+            <img src="img/partner.png" alt="">
+          </figure>
+        </div>
+        <div>
+          <div class="p-5">
+            <h2 class="md:text-5xl w-full font-bold">
+              Become a <br>
+              Jin Zhen Lian <br> Partner
+            </h2>
+            <p class="my-10">
+              Join us in connecting the world to delightful durian experiences. If you are a retailer in Thailand or an
+              international distributor interested in our products,
+              we’d love to hear from you!
+            </p>
+            <div class="flex gap-x-5">
+              <button class="py-2 font-bold px-4 rounded-2xl bg-black text-white"> <i class="bi bi-envelope"></i>
+                contact us</button>
+              <button class="py-2 font-bold px-4 rounded-2xl bg-black text-white"> <i class="bi bi-telephone"></i> call
+                now </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-20">
+        <div>
+          <h4 class="text-3xl font-bold text-center">
+            Certifications
+          </h4>
+        </div>
+        <div>
+          <figure class="flex  *:scale-50 justify-center w-full p-20  items-center">
+            <img class="w-[300px] block" src="img/cer_3.png" alt="">
+            <img class="w-[300px] block" src="img/cer_4.png" alt="">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="w-full bg-yelooooo">
+    <div class="container overflow-hidden mx-auto">
+      <div class="md:flex *:md:w-1/2 p-8 justify-between gap-x-10 items-center">
+        <div>
+          <div class=" mt-10">
+            <h4 class="md:text-5xl capitalize font-bold">Frequently <br>
+              Asked Questions</h4>
+          </div>
+          <div>
+            <figure class="md:w-1/2 md:mt-20">
+              <img class="scale-75" src="img/faq_img.png" alt="">
+            </figure>
+          </div>
+        </div>
+        <div class="p-4">
+          <!-- ///// -->
+          <div class="flex flex-wrap md:flex-nowrap *:w-full *:py-4 *:px-8 *:mt-4 *:uppercase *:font-bold space-x-4">
+            <button id="btn1"
+              class="accordion-btn w-full p-2 md:p-4  bg-white  rounded-full text-center hover:bg-gray-300 focus:outline-none">product</button>
+            <button id="btn2 "
+              class="accordion-btn w-full p-2 md:p-4 bg-white  rounded-full text-center hover:bg-gray-300 focus:outline-none">partnerships</button>
+            <button id="btn3"
+              class="accordion-btn w-full p-2 md:p-4 bg-white  rounded-full text-center hover:bg-gray-300 focus:outline-none">support</button>
+          </div>
+
+          <div class="accordion-container  space-y-4">
+            <div class="accordion-content mt-10 *:my-2 dis" id="content1">
+              <div class="accordion-item bg-white rounded-md shadow-md">
+                <div class="accordion-header p-4 bg-gray-100 rounded-t-md cursor-pointer hover:bg-gray-200">
+                  <p>
+                    What are the Bing Qi Guo and Xue Bao made of, and do they contain
+                    any dairy, sugar, or food additives?
+                  </p>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="accordion-body dis p-4 bg-gray-50 rounded-b-md">
+                  <p class="text-sm">The Bing Qi Guo and Xue Bao contain no dairy, sugar, or food
+                    additives. They are made from 100% Eastern Monthong durian.</p>
+                </div>
+              </div>
+              <div class="accordion-item bg-white rounded-md shadow-md">
+                <div class="accordion-header p-4 bg-gray-100 rounded-t-md cursor-pointer hover:bg-gray-200">
+                  <p>What is the difference between the Xue Bao and Bing Qi Guo?</p>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="accordion-body dis p-4 bg-gray-50 rounded-b-md">
+                  <p class="text-sm">
+                    The Xue Bao is made from 100% Eastern Monthong puree, giving it
+                    a soft and smooth texture. The Bing Qi Guo is made from 100%
+                    Eastern Monthong pulp, offering a more authentic, textured
+                    experience.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item bg-white rounded-md shadow-md">
+                <div class="accordion-header p-4 bg-gray-100 rounded-t-md cursor-pointer hover:bg-gray-200">
+                  <p>Are the Bing Qi Guo and Xue Bao vegan?</p>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="accordion-body dis p-4 bg-gray-50 rounded-b-md">
+                  <p class="text-sm">
+                    Absolutely, the Bing Qi Guo and Xue Bao are both vegan!
+                    They are made from 100% Eastern Monthong durian with
+                    no animal-derived ingredients.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item bg-white rounded-md shadow-md">
+                <div class="accordion-header p-4 bg-gray-100 rounded-t-md cursor-pointer hover:bg-gray-200">
+                  <p>How should I store the Bing Qi Guo/Xue Bao?</p>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="accordion-body dis p-4 bg-gray-50 rounded-b-md">
+                  <p class="text-sm">
+                    Both the Bing Qi Guo and Xue Bao should be stored at -18°C or lower.
+                    We recommend finishing them after removing from the freezer.
+                    Frequent thawing and refreezing cause ice particles to form,
+                    which will affect their taste and texture.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item bg-white rounded-md shadow-md">
+                <div class="accordion-header p-4 bg-gray-100 rounded-t-md cursor-pointer hover:bg-gray-200">
+                  <p>What are the health benefits to eating durian?</p>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="accordion-body dis p-4 bg-gray-50 rounded-b-md">
+                  <p class="text-sm">
+                    Durian is highly nutritious, packed with B vitamins, vitamin C,
+                    and dietary fiber. Its high carbohydrate content also provides
+                    an excellent energy boost.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- آکاردئون 2 -->
+            <div class="accordion-content mt-10 dis" id="content2">
+              <div class="accordion-item bg-white rounded-md shadow-md">
+                <div class="accordion-header p-4 bg-gray-100 rounded-t-md cursor-pointer hover:bg-gray-200">
+                  <p>
+                    I’m interested in selling Jin Zhen Lian’s
+                    products. How can I proceed?
+                  </p>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="accordion-body dis p-4 bg-gray-50 rounded-b-md">
+                  <p class="text-sm">
+                    Thank you for your interest in us! We're excited to explore a potential
+                    partnership with you. Please leave us a message below or email us
+                    <a href="">atmatt@seedlabsbkk.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- آکاردئون 3 -->
+            <div class="accordion-content mt-10 dis" id="content3">
+              <div class="accordion-item *:my-2 bg-white rounded-md shadow-md">
+                <div class="accordion-header p-4 bg-gray-100 rounded-t-md cursor-pointer hover:bg-gray-200">
+                  <p>
+                    Where can I buy Jin Zhen Lian products?
+                  </p>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="accordion-body dis p-4 bg-gray-50 rounded-b-md">
+                  <p class="text-sm">
+                    You can find our products in stores located in Bangkok,
+                    Pattaya, Phuket, and Chiang Mai. Keep an eye out for our bright
+                    yellow freezers!
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item bg-white rounded-md shadow-md">
+                <div class="accordion-header p-4 bg-gray-100 rounded-t-md cursor-pointer hover:bg-gray-200">
+                  <p>
+                    I am unhappy with Jin Zhen Lian’s product(s), what do I do?
+                  </p>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="accordion-body my-2 dis p-4 bg-gray-50 rounded-b-md">
+                  <p class="text-sm">
+                    We're sorry that you're not happy with our product(s).
+                    Customer satisfaction is our top priority, and we take your feedback
+                    very seriously. Please call us at(+66) 64 264 6156 or leave us
+                    a message below with your comments and/or concerns.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- //////           -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="w-full">
+    <div class="container overflow-hidden mx-auto">
+      <div class="lg:flex p-8 justify-between gap-x-5 lg:*:w-1/2">
+        <div class="flex  justify-center items-center">
+          <div>
+            <h3 class="text-2xl md:text-5xl font-bold">Let’s connect!</h3>
+            <p class="mt-10">
+              If you're interested in spreading pure durian joy with
+              Jin Zhen Lian, whether as a business partner or part
+              of our team, we'd love to hear from you!
+            </p>
+            <div class="flex  *:text-2xl *:w-full flex-wrap  mt-20 md:*:text-3xl *:flex gap-x-10 justify-center">
+              <a href=""> <i class="bi mx-5 bi-envelope-at-fill"></i> email us <br> matt@seedlabsbkk.com </a>
+              <a class=" mt-10 " href=""> <i class="bi mx-5 bi-telephone-fill"></i> call us <br> (+66) 64 264 6156</a>
+            </div>
+          </div>
+        </div>
+        <div class="mt-10">
+          <div class="max-w-lg mx-auto p-4 bg-yelooooo shadow-md rounded-lg">
+            <form class=" *:my-7" action="#" method="POST">
+              <div class="mb-4">
+                <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                <input type="text" id="name" name="name"
+                  class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  required>
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" id="email" name="email"
+                  class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  required>
+              </div>
+              <div class="mb-4">
+                <label for="phone" class="block text-sm font-medium text-gray-700">Phone number</label>
+                <input type="tel" id="phone" name="phone"
+                  class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  required>
+              </div>
+              <div class="mb-4 text-sm text-gray-700">
+                <span class="block">This field is required.</span>
+                <span class="block">By submitting these details to Jin Zhen Lian you acknowledge that you have read our
+                  <a href="#" class="text-blue-500">Privacy Policy</a>.</span>
+              </div>
+              <div class="mb-4 flex items-center">
+                <input type="checkbox" id="privacy" name="privacy" class="mr-2" required>
+                <label for="privacy" class="text-sm text-gray-700">I agree to the Privacy Policy.</label>
+              </div>
+              <button id="contactForm" type="submit"
+                class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 uppercase focus:ring-blue-500">submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="w-full bg-yelooooo">
+    <div class="container overflow-hidden p-8 mx-auto">
+      <div class="md:flex  justify-between items-center *:md:w-1/2">
+        <div>
+          <div class="mt-10">
+            <figure class="w-36 mt-10">
+              <img src="img/logo.png" alt="">
+            </figure>
+            <p class="text-xl mt-10 uppercase font-bold">Follow Us</p>
+            <div class="flex *:scale-150 mt-5 justify-start items-center gap-x-5">
+              <a href=""> <i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-telegram"></i></a>
+              <a href=""><i class="bi bi-github"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="flex mt-10 justify-center gap-x-10 items-center">
+          <div>
+            <ul class=" *:mt-5 *:text-xl *:font-bold">
+              <li><a href="">our story</a></li>
+              <li><a href="">products</a></li>
+              <li><a href="">our promise</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul class="*:mt-5 *:text-xl *:font-bold">
+              <li><a href="">partnerships</a></li>
+              <li><a href="">find us</a></li>
+              <li><a href="">contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div>
+        <figure class="w-full">
+          <img src="img/download.svg" alt="">
+        </figure>
+      </div>
+      <div class="md:flex items-center *:my-5 justify-end gap-x-5">
+        <p class="text-start font-bold opacity-60 text-black italic">Development by Vahid solimani</p>
+        <figure class="">
+          <a href=""><img class="w-48 h-48 rounded-full object-cover rotate bounce" src="img/ako.png" alt=""></a>
+        </figure>
+      </div>
+    </div>
+  </footer>
+  <!-- /////loding//// -->
+  <div id="loading-spinner">
+    <div class="animate-spin rounded-full h-16 w-16 border-t-8 border-blue-500"></div>
+  </div>
+  <!-- ///////// -->
+</body>
+<script src="js/Dorian.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+</script>
+
+</html>
